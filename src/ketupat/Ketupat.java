@@ -25,7 +25,7 @@ public class Ketupat {
  for(int x=n; x>=1; x--)
   {
    for(int y=x-1; y>=1; y--){
-    System.out.print(" ");
+    System.out.print("0");
    }
    for(int z=1; z<=((n+1)-x)*2; z++){
     System.out.print("*");
